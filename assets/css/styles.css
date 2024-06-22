@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
 :root {
     --primary-color: #0f1b4c;
 }
+
 html {
     font-size: 62.5%;
 }
@@ -16,12 +18,14 @@ body {
 a {
     text-decoration: none;
 }
+
 .content {
     width: 1110px;
     max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
 }
+
 .btn {
     display: inline-block;
     min-width: 98px;
@@ -33,12 +37,14 @@ a {
     text-align: center;
     color: #fff;
 }
+
 .btn:hover {
     opacity: 0.8;
 }
 
-/* Header*/
-.hearder {
+/* ======================= header =========================================*/
+.header {
+    position: relative;
     background: #e6f0ff;
     height: 100vh;
 }
@@ -51,7 +57,7 @@ a {
 
 .navbar ul {
     display: flex;
-    margin-left: 5rem;
+    margin-left: 50px;
 }
 
 .navbar ul a {
@@ -64,6 +70,7 @@ a {
 .navbar ul a:hover {
     text-decoration: underline;
 }
+
 .navbar .actions {
     margin-left: auto;
 }
@@ -82,6 +89,7 @@ a {
 .hero {
     margin-top: 130px;
 }
+
 .hero .info {
     width: 51%;
 }
@@ -93,6 +101,7 @@ a {
     letter-spacing: 0.01em;
     color: #687691;
 }
+
 .hero .title {
     margin-top: 8px;
     font-weight: 700;
@@ -111,4 +120,10 @@ a {
 .hero-cta {
     min-width: 170px;
     margin-top: 40px;
+}
+
+.hero-img {
+    position: absolute;
+    right: calc((100vw - 1110px) / 2 - 100px);
+    bottom: 0;
 }
