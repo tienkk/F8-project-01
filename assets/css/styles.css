@@ -25,7 +25,7 @@ a {
 .btn {
     display: inline-block;
     min-width: 98px;
-    background: #0f1b4c;
+    background: var(--primary-color);
     border-radius: 8px;
     font-weight: 500;
     font-size: 1.4rem;
@@ -46,7 +46,7 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 38px;
 }
 
 .navbar ul {
@@ -71,10 +71,44 @@ a {
 .navbar .action-link {
     font-weight: 500;
     font-size: 1.4rem;
-    color: #0f1b4c;
+    color: var(--primary-color);
 }
 
 .navbar .action-btn {
     margin-left: 18px;
     padding: 13px 16px;
+}
+
+.hero {
+    margin-top: 130px;
+}
+.hero .info {
+    width: 51%;
+}
+
+.hero .sub-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #687691;
+}
+.hero .title {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.19;
+    color: #000336;
+}
+
+.hero .desc {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #5a6473;
+}
+.hero-cta {
+    min-width: 170px;
+    margin-top: 40px;
 }
