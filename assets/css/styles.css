@@ -15,6 +15,13 @@ body {
     font-family: "Poppins", sans-serif;
 }
 /* Common */
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--linecamp, 2);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 a {
     text-decoration: none;
 }
@@ -131,7 +138,8 @@ a {
 
 /* ====================================== Clients ================================ */
 .clients {
-    margin-top: 122px;
+    margin-top: 79px;
+    padding: 43px 0 94px;
 }
 
 .clients .row {
@@ -160,7 +168,8 @@ a {
 /* ========================== Guides   ========================================================== */
 
 .guides {
-    margin-top: 200px;
+    margin-top: 40px;
+    padding: 93px 0 79px;
 }
 
 .guides .sub-title {
@@ -240,20 +249,16 @@ a {
 
 /* ========================== Featured   ========================================================== */
 .featured {
-    margin-top: 120px;
+    margin-top: 41px;
     padding: 110px 0;
     background: #f5fafe;
 }
 
-.featured .sub-title a {
+.featured .sub-title {
     font-weight: 600;
     font-size: 3.5rem;
     line-height: 1.5;
     color: #000339;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 .featured .row {
@@ -267,10 +272,6 @@ a {
     font-size: 1.6rem;
     line-height: 1.88;
     color: #5a6473;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 .featured .link {
@@ -342,4 +343,67 @@ a {
     font-size: 1.4rem;
     letter-spacing: 0.01em;
     color: #4d4d52;
+}
+
+/* ============================ Stats   ========================================== */
+
+.stats {
+    margin-top: 75px;
+    padding: 50px 0;
+}
+
+.stats .content {
+    width: 1048px;
+}
+
+.stats .row {
+    display: flex;
+}
+
+.stats .img-block,
+.stats .info {
+    width: 50%;
+}
+
+.stats .img-block img {
+    display: flex;
+    margin-left: auto;
+    width: 400px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.stats .info {
+    padding: 79px 0 0 165px;
+}
+
+.stats .sub-title {
+    position: relative;
+    font-weight: 600;
+    width: 269px;
+    font-size: 3.5rem;
+    line-height: 1.39;
+    color: #000339;
+}
+
+.stats .sub-title::before {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: "";
+    display: block;
+    width: 41px;
+    height: 4px;
+    background: #000339;
+    border-radius: 12px;
+}
+
+.stats .desc {
+    width: 309px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a6473;
 }
