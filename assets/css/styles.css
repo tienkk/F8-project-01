@@ -245,11 +245,15 @@ a {
     background: #f5fafe;
 }
 
-.featured .sub-title {
+.featured .sub-title a {
     font-weight: 600;
     font-size: 3.5rem;
-    line-height: 1;
+    line-height: 1.5;
     color: #000339;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .featured .row {
@@ -263,6 +267,10 @@ a {
     font-size: 1.6rem;
     line-height: 1.88;
     color: #5a6473;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .featured .link {
