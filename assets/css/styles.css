@@ -538,3 +538,77 @@ a {
     bottom: 0;
     right: 221px;
 }
+
+/* ================== Footer ========= */
+.footer {
+    margin-top: 55px;
+    padding: 50px 0 58px;
+}
+
+.footer .row-top {
+    gap: 185px;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .heading {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1c1c1d;
+}
+
+.footer .list,
+.footer .desc {
+    margin-top: 42px;
+}
+
+.footer .item {
+    margin-top: 18px;
+}
+
+.footer .item a,
+.footer .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    white-space: nowrap;
+    color: #7a7a7a;
+}
+
+.footer .desc {
+    white-space: normal;
+}
+
+.footer .social {
+    margin-top: 40px;
+    display: flex;
+}
+
+.footer .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+}
+
+.footer .social-link:hover {
+    background: #ccc;
+}
+
+.footer .row-bottom {
+    margin-top: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .copyright {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #c2c2c2;
+}
