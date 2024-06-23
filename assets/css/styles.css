@@ -412,7 +412,7 @@ a {
     color: #000339;
 }
 
-.stats-trend .desc {
+.stats .desc {
     margin-top: 8px;
     font-weight: 400;
     font-size: 1.2rem;
@@ -466,4 +466,23 @@ a {
     font-size: 1.6rem;
     line-height: 1.88;
     color: #5a6473;
+}
+
+.stats .row-qty {
+    justify-content: space-between;
+    margin-top: 110px;
+    padding: 0 32px;
+}
+
+.stats .qty {
+    font-weight: 600;
+    font-size: 6.4rem;
+    color: #000;
+}
+
+.stats .qty-deec {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #7b8087;
 }
